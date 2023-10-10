@@ -1,0 +1,43 @@
+.div-nav{
+    
+        width: 1097px;
+    display: flex;
+    justify-content: space-between;
+    
+    .btn-login {
+        display: inline-flex;
+        padding: 20px 36px;
+        flex-shrink: 0;
+        // box-shadow: $box-shadow-btns;
+        color: #fff;
+        background-color: black;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        width: 186px;
+    }
+    .a-navs {
+        display: inline-flex;
+        align-items: center;
+    }
+    .a-nav{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: white;
+        margin-left: 31px;
+        font-family: Graphik ,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        
+    }
+}
+
+
